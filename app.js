@@ -33,8 +33,3 @@ const clock = setInterval(function time (){
     second.innerText=secs;
 })
 
-const toggleBtn = document.getElementById('modeToggle');
-
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('light-mode');
-});
