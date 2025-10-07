@@ -32,3 +32,9 @@ const clock = setInterval(function time (){
     minute.innerText=mins;
     second.innerText=secs;
 })
+
+const toggleBtn = document.getElementById('modeToggle');
+
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light-mode');
+});
